@@ -1,0 +1,108 @@
+/* Reset CSS */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after   {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    font-size: 0.8rem;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    transition: all .6s;
+}
+
+/* Section */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section img {
+    width: 18rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+}
+
+.section h2 {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.section p {
+    margin: 1rem 0;
+    padding: 0 3rem;
+}
+
+.section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* Nav */
+nav {
+    display: none;
+}
+
+.active {
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color: #f7d99d;
+}
+
+.copyright {
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+.email {
+    text-decoration: none;
+    color: #000000;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    line-height: 1.5;
+}
